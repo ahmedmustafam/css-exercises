@@ -48,6 +48,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
 }
 
 button {
@@ -66,4 +67,27 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  flex: auto;
+  gap: 16px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.text,
+.continue {
+  margin-left:58px;
+  margin-bottom: 10px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+
 }

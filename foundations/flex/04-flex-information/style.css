@@ -3,14 +3,34 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
+
+.list {
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+  gap: 52px;
+  text-align: center;
+}
+
+/* Max width helped here to make it more evenly spaced since the 
+text wasnt wrapping properly, as the flex was applied to the whole 
+container and the text was messing things up, good to remember 
+*/
+
+.info {
+  max-width: 200px;
+}
+
+
 
 /* do not edit this footer */
 .footer {
